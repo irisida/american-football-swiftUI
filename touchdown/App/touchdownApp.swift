@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct touchdownApp: App {
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(Shop())
         }
     }
 }
